@@ -138,3 +138,12 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.Coin.CoinMarketRE:FireServer(unpack(args))
+wait()
+
+local args = {
+    [1] = "sell",
+    [2] = 10222,
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.Coin.CoinMarketRE:FireServer(unpack(args))
